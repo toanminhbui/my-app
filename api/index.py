@@ -75,7 +75,7 @@ def retrieve_thoughts(question: str):
         {"$vectorSearch": {
             "queryVector": generate_embedding(question),
             "path": "desc_embedding",
-            "numCandidates": 2500,
+            "numCandidates": 4000,
             "limit": 7,
             "index": "vector_index",
             }},

@@ -76,9 +76,9 @@ export default function InputForm() {
           name="describe"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Netflixify</FormLabel>
+              <FormLabel>What to Watch</FormLabel>
               <FormControl>
-                <Input placeholder="rom-com where the two lovers don't end up together" {...field} />
+                <Input placeholder="movies similar to saving private ryan" {...field} />
               </FormControl>
               <FormDescription>
                 Describe what you want to watch, get very specific recommendations and links to netflix
